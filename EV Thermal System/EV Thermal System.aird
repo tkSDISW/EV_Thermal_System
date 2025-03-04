@@ -3,6 +3,7 @@
   <viewpoint:DAnalysis uid="_nEMqYPT_Ee-tNdPV7L9Ywg" selectedViews="_nFBJwPT_Ee-tNdPV7L9Ywg _nFiHIPT_Ee-tNdPV7L9Ywg _nGE5sPT_Ee-tNdPV7L9Ywg _nLBEEPT_Ee-tNdPV7L9Ywg _nNODgPT_Ee-tNdPV7L9Ywg _nODJ8PT_Ee-tNdPV7L9Ywg _nOUPsPT_Ee-tNdPV7L9Ywg _nPBaUPT_Ee-tNdPV7L9Ywg _nPYmsPT_Ee-tNdPV7L9Ywg _xCABMPUIEe-t-deGxGcRqA" version="15.1.0.202211301600">
     <semanticResources>EV%20Thermal%20System.afm</semanticResources>
     <semanticResources>EV%20Thermal%20System.capella</semanticResources>
+    <semanticResources>EV%20Thermal%20System.traceability</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_nFBJwPT_Ee-tNdPV7L9Ywg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']"/>
     </ownedViews>
@@ -31,7 +32,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_nOUPsPT_Ee-tNdPV7L9Ywg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_t8JZoPT_Ee-tNdPV7L9Ywg" name="[LAB] Thermal System" repPath="#_t8HkcPT_Ee-tNdPV7L9Ywg" changeId="1741091066135">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_t8JZoPT_Ee-tNdPV7L9Ywg" name="[LAB] Thermal System" repPath="#_t8HkcPT_Ee-tNdPV7L9Ywg" changeId="1741095060031">
         <eAnnotations xmi:type="description:DAnnotation" uid="_t8PgQPT_Ee-tNdPV7L9Ywg" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t8PgQfT_Ee-tNdPV7L9Ywg" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t8PgQvT_Ee-tNdPV7L9Ywg" key="hide.computed.physical.links.filter" value="true"/>
