@@ -706,7 +706,18 @@
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="a2da5b5b-7409-40b6-bf87-5ff510c4a96d" name="Vehicle" appliedPropertyValueGroups="#9e73f0c7-8e77-42b6-af58-6d3ef5f8b2af #2db0ec2a-9b2b-455b-945b-7352389c0d52">
           <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
-              id="9e73f0c7-8e77-42b6-af58-6d3ef5f8b2af" name="Vehicle Properties"/>
+              id="9e73f0c7-8e77-42b6-af58-6d3ef5f8b2af" name="Vehicle Properties"
+              appliedPropertyValueGroups="#ac470522-29e1-4945-8503-dc1a38c1032e">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="ac470522-29e1-4945-8503-dc1a38c1032e" name="Vehicle Mass" summary="1525">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="6085078b-8015-4498-b4b0-b538e86fd5e5" name="Req ID" value="DP-1632"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="bbb00a38-0beb-4b04-8871-1b7f2be6b60d" name="Units" value="kg"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
+                  id="1d03902d-30fb-4cb0-8a59-77c4481b520d" name="Value"/>
+            </ownedPropertyValueGroups>
+          </ownedPropertyValueGroups>
           <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
               id="2db0ec2a-9b2b-455b-945b-7352389c0d52" name="NPI_Levels.CompLevelExtension"
               appliedPropertyValueGroups="#ada47c82-35fc-4785-9c2c-3f3f9df2e573">
@@ -714,25 +725,6 @@
                 id="85a9beda-7a3e-4d2e-8f7e-16fdea218294" name="Level" appliedPropertyValues="#84e41ca3-7b59-471a-b18d-567d19978fd6"
                 type="#69362df0-1e1d-48c2-a50b-6c65d75294c2" value="#ff690071-4a77-4351-9706-94d233127e55"/>
           </ownedPropertyValueGroups>
-          <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="40cab159-ed81-4c44-a4b6-e2989d8126a9" name="C 1" appliedPropertyValueGroups="#306ccae7-718d-4ef8-9264-6f455a296f75 #44968161-1060-48af-a8bc-8c0ab1e784da"
-              source="#dd84b103-f371-4e75-a612-611c31e5ecaa" target="#2b3bcc53-8f84-415e-bc9b-977a1ca0e6e7"
-              kind="FLOW">
-            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
-                id="306ccae7-718d-4ef8-9264-6f455a296f75" name="NPI_Levels.ExchangeLevelExtension"
-                appliedPropertyValueGroups="#094cc7cc-76b0-4487-ac69-eb70206a8428">
-              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyValue"
-                  id="df30f0e2-cdbe-4f91-8228-eba091e36c5b" name="Level" appliedPropertyValues="#4c3d4d6e-a0b3-439b-9465-7298e76ef6e0"
-                  type="#2328fe25-4f09-4862-8d1a-864fb1393648" value="#d46fe516-eab4-423c-94ff-884539eee796"/>
-            </ownedPropertyValueGroups>
-            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
-                id="44968161-1060-48af-a8bc-8c0ab1e784da" name="Engine_System_Legend.EngineSystemExtension"
-                appliedPropertyValueGroups="#0a18af83-674c-43c9-9ef9-f8f22209201f">
-              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyValue"
-                  id="6b2903af-8149-49a1-8337-a965dc018ae8" name="Energy Flows" appliedPropertyValues="#1e600651-9cef-42b9-92ed-aa3914a5274a"
-                  type="#d73ac375-96ce-4970-b545-45a2095383d2" value="#e47009e9-c04a-44fa-8059-ac7efc38699f"/>
-            </ownedPropertyValueGroups>
-          </ownedComponentExchanges>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
               id="95568164-bc00-4d0f-994c-82d1159bb4a3" name="Mechanical" appliedPropertyValueGroups="#020958fb-fd24-4e4e-a02b-75d756f28e10 #ee341ad2-a36e-445c-ab0a-c913735a655a"
               source="#6e998baf-cd0b-4a25-92b0-50f5fc4c3c8f" target="#f856aa1d-c7b8-4fc9-b9c9-d604f5283d9e"
@@ -768,25 +760,6 @@
                 appliedPropertyValueGroups="#0a18af83-674c-43c9-9ef9-f8f22209201f">
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyValue"
                   id="e70a18e7-5d92-48fd-8807-e20a19453e37" name="Energy Flows" appliedPropertyValues="#1e600651-9cef-42b9-92ed-aa3914a5274a"
-                  type="#d73ac375-96ce-4970-b545-45a2095383d2" value="#e47009e9-c04a-44fa-8059-ac7efc38699f"/>
-            </ownedPropertyValueGroups>
-          </ownedComponentExchanges>
-          <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="af6c3e74-9474-4b0f-b771-05154d76f5af" name="C 5" appliedPropertyValueGroups="#161b8b9a-2a2f-4a03-b93e-bcdc40e3177a #0395ca16-7ea3-4ac8-8802-c5feb728af07"
-              source="#746a8cf9-3735-47cb-b606-637bcabb2045" target="#6e8791b4-e97e-4a18-93b3-b3c70ae263a6"
-              kind="FLOW">
-            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
-                id="161b8b9a-2a2f-4a03-b93e-bcdc40e3177a" name="NPI_Levels.ExchangeLevelExtension"
-                appliedPropertyValueGroups="#094cc7cc-76b0-4487-ac69-eb70206a8428">
-              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyValue"
-                  id="fc6c62d0-3b46-4968-af48-57394d422ff7" name="Level" appliedPropertyValues="#4c3d4d6e-a0b3-439b-9465-7298e76ef6e0"
-                  type="#2328fe25-4f09-4862-8d1a-864fb1393648" value="#d46fe516-eab4-423c-94ff-884539eee796"/>
-            </ownedPropertyValueGroups>
-            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
-                id="0395ca16-7ea3-4ac8-8802-c5feb728af07" name="Engine_System_Legend.EngineSystemExtension"
-                appliedPropertyValueGroups="#0a18af83-674c-43c9-9ef9-f8f22209201f">
-              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyValue"
-                  id="84515840-9ab3-4952-999c-5171e3b247c5" name="Energy Flows" appliedPropertyValues="#1e600651-9cef-42b9-92ed-aa3914a5274a"
                   type="#d73ac375-96ce-4970-b545-45a2095383d2" value="#e47009e9-c04a-44fa-8059-ac7efc38699f"/>
             </ownedPropertyValueGroups>
           </ownedComponentExchanges>
@@ -973,24 +946,8 @@
               name="Hydaulic Cooling" abstractType="#407a0f76-b0d4-4c79-be1b-4bb8bd5f38b0"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="5e07eb2e-3d7e-499b-8861-93659399206c"
               name="Radiator" abstractType="#794bd7a7-2e0d-43e5-9a3e-4f561eaa8184"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="dd84b103-f371-4e75-a612-611c31e5ecaa" name="CP 7" orientation="OUT"
-              kind="FLOW"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="6e998baf-cd0b-4a25-92b0-50f5fc4c3c8f" name="CP 9" orientation="OUT"
-              kind="FLOW"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="9e776dc6-08bd-4820-a331-b25c3eddbdf5" name="CP 10" orientation="OUT"
-              kind="FLOW"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="746a8cf9-3735-47cb-b606-637bcabb2045" name="CP 11" orientation="OUT"
-              kind="FLOW"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="28a40446-eade-4b48-9dc7-e903704deed2" name="CP 12" orientation="OUT"
-              kind="FLOW"/>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="84d12545-c944-48b2-9839-9d7a51c36ada" name="CP 13" orientation="IN"
-              kind="FLOW"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9a75fc2e-6c61-4d56-a079-fe11f093d266"
+              name="Chassis" abstractType="#9245a581-dd85-48d8-8d49-954e083675d5"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="7b17b065-9550-434e-9003-9889d8477881" targetElement="#00d364bd-9ded-41e4-a22d-d1d8d19eea57"
               sourceElement="#a2da5b5b-7409-40b6-bf87-5ff510c4a96d"/>
@@ -1006,9 +963,6 @@
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="6b1571f6-dc3d-43a6-8286-7bcbd769173d" targetElement="#a8227424-40a4-42d0-87c0-da1134b6aef6"
                 sourceElement="#adf89ebc-6944-4c2d-a6fc-42b558260391"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                id="2b3bcc53-8f84-415e-bc9b-977a1ca0e6e7" name="CP 1" orientation="IN"
-                kind="FLOW"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="2a08252a-4e3f-419c-9e10-c776344cade5" name="CP 2" orientation="IN"
                 kind="FLOW"/>
@@ -1143,7 +1097,7 @@
                 appliedPropertyValueGroups="#ada47c82-35fc-4785-9c2c-3f3f9df2e573">
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyValue"
                   id="af07592c-7cac-4530-9d9b-415f3da608f5" name="Level" appliedPropertyValues="#84e41ca3-7b59-471a-b18d-567d19978fd6"
-                  type="#69362df0-1e1d-48c2-a50b-6c65d75294c2" value="#51351123-3b78-4202-999a-ed332575e460"/>
+                  type="#69362df0-1e1d-48c2-a50b-6c65d75294c2" value="#fe2d2be6-1024-4538-a63c-b83c2aac6115"/>
             </ownedPropertyValueGroups>
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="c647dd6e-95fc-42b4-9e86-ea4fd5631593" targetElement="#f6eeb74c-fa65-4343-afda-efa4500110f1"
@@ -1211,6 +1165,28 @@
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="f7777d7f-4c50-4bc9-84d6-90ce27b0e8c0" name="CP 5" orientation="IN"
+                kind="FLOW"/>
+          </ownedLogicalComponents>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="9245a581-dd85-48d8-8d49-954e083675d5" name="Chassis" appliedPropertyValueGroups="#b18f7e4d-30ba-46eb-89e4-f160cfe11ec9">
+            <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
+                id="b18f7e4d-30ba-46eb-89e4-f160cfe11ec9" name="NPI_Levels.CompLevelExtension"
+                appliedPropertyValueGroups="#ada47c82-35fc-4785-9c2c-3f3f9df2e573">
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyValue"
+                  id="50804c9f-bd0d-4662-b73f-3acee5974304" name="Level" appliedPropertyValues="#84e41ca3-7b59-471a-b18d-567d19978fd6"
+                  type="#69362df0-1e1d-48c2-a50b-6c65d75294c2" value="#51351123-3b78-4202-999a-ed332575e460"/>
+            </ownedPropertyValueGroups>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="84d12545-c944-48b2-9839-9d7a51c36ada" name="CP 13" orientation="IN"
+                kind="FLOW"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="6e998baf-cd0b-4a25-92b0-50f5fc4c3c8f" name="CP 9" orientation="OUT"
+                kind="FLOW"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="28a40446-eade-4b48-9dc7-e903704deed2" name="CP 12" orientation="OUT"
+                kind="FLOW"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="9e776dc6-08bd-4820-a331-b25c3eddbdf5" name="CP 10" orientation="OUT"
                 kind="FLOW"/>
           </ownedLogicalComponents>
         </ownedLogicalComponents>

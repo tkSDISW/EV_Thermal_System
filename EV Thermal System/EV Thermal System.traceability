@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<traceability:Traceability xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:traceability="http://www.obeo.fr/dsl/traceability" id="96f03d24-cbc1-4725-9d3a-7d65da336071">
+<traceability:Traceability xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:traceability="http://www.obeo.fr/dsl/traceability" id="96f03d24-cbc1-4725-9d3a-7d65da336071" modelUri="https://p4capella.diswx.com/projects/fe96985a-3c79-4a80-b283-b93f9eb1f060/edit/3">
   <domains id="3b7f697b-53cb-45f2-b5dd-d1b78ac802e7" name="Requirements Management" uri="http://open-services.net/ns/rm#" prefix="oslc_rm">
     <ownedArtifactTypes id="8fd239ad-6fe6-432c-8ac4-7de8be5da2e3" name="Requirement"/>
     <ownedArtifactTypes id="0a04717a-5350-433d-8e7a-d2a75de26264" name="RequirementCollection"/>
@@ -61,9 +61,16 @@
     <ownedLinkTypes id="ad692fc7-aea9-42ea-bd66-7606e2c2079b" name="component" artifactRange="b4d889e0-c170-4277-9120-d28271afa0f7"/>
   </domains>
   <repositories id="8f15fcc9-4174-4ca6-9d16-f3bdac852fa6" name="Polarion" url="https://polarion.diswx.com/polarion/oslc/rootservices" configuration="">
-    <linkRanges id="a5b4808e-3771-46e3-b6ec-d6e13af00d4b" name="Requirement Satisfies Element" linkType="0b0ec3c5-a5c0-43cf-ad82-0549830cec10" artifactRange="8fd239ad-6fe6-432c-8ac4-7de8be5da2e3" directionConstraint="MODEL_TO_ARTIFACT">
+    <linkRanges id="a5b4808e-3771-46e3-b6ec-d6e13af00d4b" name="Requirement Satisfies Element" linkType="0b0ec3c5-a5c0-43cf-ad82-0549830cec10" artifactRange="8fd239ad-6fe6-432c-8ac4-7de8be5da2e3 0a04717a-5350-433d-8e7a-d2a75de26264" directionConstraint="MODEL_TO_ARTIFACT">
       <localRange>CapellaElement</localRange>
     </linkRanges>
-    <store id="6570d6d8-c187-41ae-9a27-974130007538"/>
+    <store id="6570d6d8-c187-41ae-9a27-974130007538">
+      <ownedArtifacts xsi:type="traceability:Artifact" types="8fd239ad-6fe6-432c-8ac4-7de8be5da2e3" title="Vehicle Mass" url="https://polarion.diswx.com/polarion/oslc/services/projects/drivepilot/workitems/DP-1632" identifier="DP-1632" id="af4b3bef-47ca-4ac8-8fbd-1600d16b9e2f">
+        <ownedLinks xsi:type="traceability:Link" type="0b0ec3c5-a5c0-43cf-ad82-0549830cec10" artifact="af4b3bef-47ca-4ac8-8fbd-1600d16b9e2f" id="15d710e1-63a0-4610-b0ac-141e80e33d2f">
+          <modelObject href="EV%20Thermal%20System.capella#a2da5b5b-7409-40b6-bf87-5ff510c4a96d"/>
+        </ownedLinks>
+      </ownedArtifacts>
+    </store>
+    <snapshots/>
   </repositories>
 </traceability:Traceability>
