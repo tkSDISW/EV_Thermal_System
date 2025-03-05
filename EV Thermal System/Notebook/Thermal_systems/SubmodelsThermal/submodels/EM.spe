@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE SPE>
+<SPE DOC_VERSION="2" AME_VERSION="2020.2" MAJ="20202" MIN="" PATCH="">
+
+ <SUBMODEL>
+  <SUB_TYPE>1</SUB_TYPE>
+  <SUB_ID_MAX>17</SUB_ID_MAX>
+  <DEFAULT_ICON>EM</DEFAULT_ICON>
+  <SUB_UNIT>0</SUB_UNIT>
+  <OUTPUT_TYPE>0</OUTPUT_TYPE>
+  <RPARAMS_LIST>
+   <RPARAM_EXPOSED>
+    <EXPOSED_VAR>pospowmax@drv_electricmotortherm1</EXPOSED_VAR>
+    <TITLE>maximum positive power</TITLE>
+    <SUB_ID>14</SUB_ID>
+    <VARNAME>MaxPower</VARNAME>
+   </RPARAM_EXPOSED>
+   <RPARAM_EXPOSED>
+    <EXPOSED_VAR>postormax@drv_electricmotortherm1</EXPOSED_VAR>
+    <TITLE>maximum positive torque</TITLE>
+    <SUB_ID>15</SUB_ID>
+    <VARNAME>MaxTorque</VARNAME>
+   </RPARAM_EXPOSED>
+   <RPARAM_EXPOSED>
+    <EXPOSED_VAR>posrevmax@drv_electricmotortherm1</EXPOSED_VAR>
+    <TITLE>maximum rotary velocity for positive torque</TITLE>
+    <SUB_ID>16</SUB_ID>
+    <VARNAME>MaxRev</VARNAME>
+   </RPARAM_EXPOSED>
+   <RPARAM_EXPOSED>
+    <EXPOSED_VAR>efficiency@drv_electricmotortherm1</EXPOSED_VAR>
+    <TITLE>mean efficiency</TITLE>
+    <SUB_ID>17</SUB_ID>
+    <VARNAME>Efficency</VARNAME>
+   </RPARAM_EXPOSED>
+  </RPARAMS_LIST>
+  <EVARS_LIST>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>62</SUB_ID>
+     <TITLE>power losses at port 1</TITLE>
+     <VARNAME>powerloss</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>8</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>W</UNITS>
+     <EXPRESS2>@_0_1 @_2_1 @_1_2 @_0_4</EXPRESS2>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>35</SUB_ID>
+     <TITLE>motor temperature at port 1</TITLE>
+     <VARNAME>motortemp</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>degC</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>3</SUB_ID>
+     <TITLE>torque at port 2</TITLE>
+     <VARNAME>t2</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>Nm</UNITS>
+     <EXPRESS2>r1*@_1_2</EXPRESS2>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>4</SUB_ID>
+     <TITLE>velocity at port 2</TITLE>
+     <VARNAME>w2</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>rev/min</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>3</SUB_ID>
+     <TITLE>signal output</TITLE>
+     <VARNAME>torsig</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>null</UNITS>
+     <EXPRESS2>r2*(c1*@_1_2-r1)</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>3</SUB_ID>
+     <TITLE>signal output</TITLE>
+     <VARNAME>wsig</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>null</UNITS>
+     <EXPRESS2>r2*(c1*@_3_2-r1)</EXPRESS2>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>59</SUB_ID>
+     <TITLE>maximum positive torque at port 3</TITLE>
+     <VARNAME>Tmax</VARNAME>
+     <VARNAME2>dtmaxout</VARNAME2>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>8</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>Nm</UNITS>
+     <EXPRESS2>@_0_1 @_1_2 @_0_4</EXPRESS2>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>136</SUB_ID>
+     <TITLE>maximum negative torque at port 3</TITLE>
+     <VARNAME>Tmin</VARNAME>
+     <VARNAME2>dtminout</VARNAME2>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>12</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>Nm</UNITS>
+     <EXPRESS2>@_3_1</EXPRESS2>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>138</SUB_ID>
+     <TITLE>rotary velocity at port 2</TITLE>
+     <VARNAME>W3</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>4</TYPE>
+     <PRIMARY_PORT>1</PRIMARY_PORT>
+     <PRIMARY_VAR>1</PRIMARY_VAR>
+     <DUP_TYPE>1</DUP_TYPE>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>10</SUB_ID>
+     <TITLE>torque command at port 4</TITLE>
+     <VARNAME>Tset</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>Nm</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>103</SUB_ID>
+     <TITLE>current at port 5</TITLE>
+     <VARNAME>I5</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>8</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>A</UNITS>
+     <EXPRESS2>@_0_4 @_2_1 @_2_2 @_1_1</EXPRESS2>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>12</SUB_ID>
+     <TITLE>potential at port 5</TITLE>
+     <VARNAME>V5</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>V</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>13</SUB_ID>
+     <TITLE>current at port 5</TITLE>
+     <VARNAME>I6</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>4</TYPE>
+     <PRIMARY_PORT>4</PRIMARY_PORT>
+     <PRIMARY_VAR>0</PRIMARY_VAR>
+     <DUP_TYPE>1</DUP_TYPE>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>14</SUB_ID>
+     <TITLE>potential at port 6</TITLE>
+     <VARNAME>V6</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>V</UNITS>
+    </EVAR>
+   </PORT>
+  </EVARS_LIST>
+  <EXPOSED_ORDER>
+   <EXPOSED_PARAM_ORDER>
+    <EXPOSED_DATAPATH_LIST>
+     <EXPOSED_DATAPATH>MaxPower</EXPOSED_DATAPATH>
+     <EXPOSED_DATAPATH>MaxTorque</EXPOSED_DATAPATH>
+     <EXPOSED_DATAPATH>MaxRev</EXPOSED_DATAPATH>
+     <EXPOSED_DATAPATH>Efficency</EXPOSED_DATAPATH>
+    </EXPOSED_DATAPATH_LIST>
+   </EXPOSED_PARAM_ORDER>
+   <EXPOSED_VAR_ORDER>
+    <EXPOSED_DATAPATH_LIST>
+     <EXPOSED_DATAPATH>MaxPower</EXPOSED_DATAPATH>
+     <EXPOSED_DATAPATH>MaxTorque</EXPOSED_DATAPATH>
+     <EXPOSED_DATAPATH>MaxRev</EXPOSED_DATAPATH>
+     <EXPOSED_DATAPATH>Efficency</EXPOSED_DATAPATH>
+    </EXPOSED_DATAPATH_LIST>
+   </EXPOSED_VAR_ORDER>
+  </EXPOSED_ORDER>
+  <CIR_PORTS_OVER_FRAMEWORK>1</CIR_PORTS_OVER_FRAMEWORK>
+  <SUBIDS_RESET>0</SUBIDS_RESET>
+ </SUBMODEL>
+</SPE>

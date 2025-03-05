@@ -1,0 +1,33 @@
+./submodels
+Inverter
+&INVERTER Bolt_supercomponents
+Inverter_cooling
+&INVERTER_COOLING Bolt_supercomponents
+Electronics
+&ELECTRONICS Bolt_supercomponents
+Electronics_cooling
+&ELECTRONICS_COOLING Bolt_supercomponents
+Hydraulic_Cooling
+&HYDRAULIC_COOLING Bolt_supercomponents
+EM
+&EM Bolt_supercomponents
+Radiator
+&RADIATOR Bolt_supercomponents
+Pump
+&PUMP Bolt_supercomponents
+Air_Cooling
+&AIR_COOLING Bolt_supercomponents
+Battery
+&BATTERY Bolt_supercomponents
+PTC_Heater
+&PTC_HEATER Bolt_supercomponents
+Splitter_3p
+&SPLITTER3P Bolt_supercomponents
+Radiator_Eng
+&RADIATORENG Bolt_supercomponents
+Vehicle
+&VEHICLE Bolt_supercomponents
+Directional_valve
+&DIRECTIONAL_VALVE Bolt_supercomponents
+Hydraulic_Node
+&HYDRAULIC_NODE Bolt_supercomponents

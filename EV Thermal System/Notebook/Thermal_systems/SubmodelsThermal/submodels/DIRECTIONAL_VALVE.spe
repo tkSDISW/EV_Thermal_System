@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE SPE>
+<SPE DOC_VERSION="2" AME_VERSION="2020.2" MAJ="20202" MIN="" PATCH="">
+
+ <SUBMODEL>
+  <SUB_TYPE>1</SUB_TYPE>
+  <SUB_ID_MAX>25</SUB_ID_MAX>
+  <DEFAULT_ICON>Directional_valve</DEFAULT_ICON>
+  <SUB_UNIT>0</SUB_UNIT>
+  <OUTPUT_TYPE>0</OUTPUT_TYPE>
+  <EVARS_LIST>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>1</SUB_ID>
+     <TITLE>mass flow rate at port P</TITLE>
+     <CUSTOM_TITLE>mass flow rate at port P</CUSTOM_TITLE>
+     <VARNAME>dmp</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>kg/s</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>2</SUB_ID>
+     <TITLE>enthalpy flow rate at port P</TITLE>
+     <CUSTOM_TITLE>enthalpy flow rate at port P</CUSTOM_TITLE>
+     <VARNAME>dmhp</VARNAME>
+     <VISIBILITY>(thhuse==1)</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>W</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>61</SUB_ID>
+     <TITLE>volume at port P</TITLE>
+     <CUSTOM_TITLE>volume at port P</CUSTOM_TITLE>
+     <VARNAME>volp</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>5</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>cm**3</UNITS>
+     <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+     <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+     <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+     <VALUE>0.00000000000000e+00</VALUE>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>64</SUB_ID>
+     <TITLE>derivative of volume at port P</TITLE>
+     <CUSTOM_TITLE>derivative of volume at port P</CUSTOM_TITLE>
+     <VARNAME>dvolp</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>5</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>L/min</UNITS>
+     <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+     <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+     <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+     <VALUE>0.00000000000000e+00</VALUE>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>94</SUB_ID>
+     <TITLE>flow index at port P</TITLE>
+     <CUSTOM_TITLE>flow index at port P</CUSTOM_TITLE>
+     <VARNAME>flowidp</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>tfflow</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>3</SUB_ID>
+     <TITLE>pressure at port P</TITLE>
+     <CUSTOM_TITLE>pressure at port P</CUSTOM_TITLE>
+     <VARNAME>pp</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>barA</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>4</SUB_ID>
+     <TITLE>temperature at port P</TITLE>
+     <CUSTOM_TITLE>temperature at port P</CUSTOM_TITLE>
+     <VARNAME>tempp</VARNAME>
+     <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>degC</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>93</SUB_ID>
+     <TITLE>node index at port P</TITLE>
+     <CUSTOM_TITLE>node index at port P</CUSTOM_TITLE>
+     <VARNAME>nodeidp</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>3</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>tfnode</UNITS>
+     <DEF_VALUE>-1.00000000000000e+00</DEF_VALUE>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>5</SUB_ID>
+     <TITLE>mass flow rate at port T</TITLE>
+     <CUSTOM_TITLE>mass flow rate at port T</CUSTOM_TITLE>
+     <VARNAME>dmt</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>kg/s</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>6</SUB_ID>
+     <TITLE>enthalpy flow rate at port T</TITLE>
+     <CUSTOM_TITLE>enthalpy flow rate at port T</CUSTOM_TITLE>
+     <VARNAME>dmht</VARNAME>
+     <VISIBILITY>(thhuse==1)</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>W</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>67</SUB_ID>
+     <TITLE>volume at port T</TITLE>
+     <CUSTOM_TITLE>volume at port T</CUSTOM_TITLE>
+     <VARNAME>volt</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>5</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>cm**3</UNITS>
+     <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+     <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+     <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+     <VALUE>0.00000000000000e+00</VALUE>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>70</SUB_ID>
+     <TITLE>derivative of volume at port T</TITLE>
+     <CUSTOM_TITLE>derivative of volume at port T</CUSTOM_TITLE>
+     <VARNAME>dvolt</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>5</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>L/min</UNITS>
+     <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+     <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+     <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+     <VALUE>0.00000000000000e+00</VALUE>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>97</SUB_ID>
+     <TITLE>flow index at port T</TITLE>
+     <CUSTOM_TITLE>flow index at port T</CUSTOM_TITLE>
+     <VARNAME>flowidt</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>tfflow</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>7</SUB_ID>
+     <TITLE>pressure at port T</TITLE>
+     <CUSTOM_TITLE>pressure at port T</CUSTOM_TITLE>
+     <VARNAME>pt</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>barA</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>8</SUB_ID>
+     <TITLE>temperature at port T</TITLE>
+     <CUSTOM_TITLE>temperature at port T</CUSTOM_TITLE>
+     <VARNAME>tempt</VARNAME>
+     <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>degC</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>96</SUB_ID>
+     <TITLE>node index at port T</TITLE>
+     <CUSTOM_TITLE>node index at port T</CUSTOM_TITLE>
+     <VARNAME>nodeidt</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>3</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>tfnode</UNITS>
+     <DEF_VALUE>-1.00000000000000e+00</DEF_VALUE>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>13</SUB_ID>
+     <TITLE>mass flow rate at port A</TITLE>
+     <CUSTOM_TITLE>mass flow rate at port A</CUSTOM_TITLE>
+     <VARNAME>dma</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>kg/s</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>14</SUB_ID>
+     <TITLE>enthalpy flow rate at port A</TITLE>
+     <CUSTOM_TITLE>enthalpy flow rate at port A</CUSTOM_TITLE>
+     <VARNAME>dmha</VARNAME>
+     <VISIBILITY>(thhuse==1)</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>W</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>79</SUB_ID>
+     <TITLE>volume at port A</TITLE>
+     <CUSTOM_TITLE>volume at port A</CUSTOM_TITLE>
+     <VARNAME>vola</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>5</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>cm**3</UNITS>
+     <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+     <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+     <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+     <VALUE>0.00000000000000e+00</VALUE>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>82</SUB_ID>
+     <TITLE>derivative of volume at port A</TITLE>
+     <CUSTOM_TITLE>derivative of volume at port A</CUSTOM_TITLE>
+     <VARNAME>dvola</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>5</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>L/min</UNITS>
+     <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+     <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+     <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+     <VALUE>0.00000000000000e+00</VALUE>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>103</SUB_ID>
+     <TITLE>flow index at port A</TITLE>
+     <CUSTOM_TITLE>flow index at port A</CUSTOM_TITLE>
+     <VARNAME>flowida</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>tfflow</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>15</SUB_ID>
+     <TITLE>pressure at port A</TITLE>
+     <CUSTOM_TITLE>pressure at port A</CUSTOM_TITLE>
+     <VARNAME>pa</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>barA</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>16</SUB_ID>
+     <TITLE>temperature at port A</TITLE>
+     <CUSTOM_TITLE>temperature at port A</CUSTOM_TITLE>
+     <VARNAME>tempa</VARNAME>
+     <VISIBILITY>(thhuse!=2)&&(thhuse!=3)</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>degC</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>102</SUB_ID>
+     <TITLE>node index at port A</TITLE>
+     <CUSTOM_TITLE>node index at port A</CUSTOM_TITLE>
+     <VARNAME>nodeida</VARNAME>
+     <VISIBILITY>False</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>3</IO>
+     <UNPLOTTABLE>1</UNPLOTTABLE>
+     <UNITS>tfnode</UNITS>
+     <DEF_VALUE>-1.00000000000000e+00</DEF_VALUE>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>2</SUB_ID>
+     <TITLE>trigger input</TITLE>
+     <VARNAME>inp2</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>null</UNITS>
+    </EVAR>
+   </PORT>
+  </EVARS_LIST>
+  <CIR_PORTS_OVER_FRAMEWORK>1</CIR_PORTS_OVER_FRAMEWORK>
+  <SUBIDS_RESET>0</SUBIDS_RESET>
+ </SUBMODEL>
+</SPE>

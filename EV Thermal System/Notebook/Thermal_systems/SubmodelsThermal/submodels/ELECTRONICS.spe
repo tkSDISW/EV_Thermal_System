@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE SPE>
+<SPE DOC_VERSION="2" AME_VERSION="2020.2" MAJ="20202" MIN="" PATCH="">
+
+ <SUBMODEL>
+  <SUB_TYPE>1</SUB_TYPE>
+  <SUB_ID_MAX>10</SUB_ID_MAX>
+  <DEFAULT_ICON>Electronics</DEFAULT_ICON>
+  <SUB_UNIT>0</SUB_UNIT>
+  <OUTPUT_TYPE>0</OUTPUT_TYPE>
+  <EVARS_LIST>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>3</SUB_ID>
+     <TITLE>current at port 2</TITLE>
+     <VARNAME>I2</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>A</UNITS>
+     <EXPRESS2>@_1_2+@_3_2</EXPRESS2>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>4</SUB_ID>
+     <TITLE>potential at port 2</TITLE>
+     <VARNAME>V2</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>V</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>5</SUB_ID>
+     <TITLE>current at port 3</TITLE>
+     <VARNAME>I3</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>7</TYPE>
+     <UNITS>A</UNITS>
+     <EXPRESS2>@_1_2+@_2_2</EXPRESS2>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>6</SUB_ID>
+     <TITLE>potential at port 3</TITLE>
+     <VARNAME>V3</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>V</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>3</SUB_ID>
+     <TITLE>potential at port 3</TITLE>
+     <VARNAME>V2</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>4</TYPE>
+     <PRIMARY_PORT>2</PRIMARY_PORT>
+     <PRIMARY_VAR>1</PRIMARY_VAR>
+     <DUP_TYPE>0</DUP_TYPE>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>4</SUB_ID>
+     <TITLE>current at port 2</TITLE>
+     <VARNAME>I2</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>A</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>5</SUB_ID>
+     <TITLE>potential at port 2</TITLE>
+     <VARNAME>V3</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>4</TYPE>
+     <PRIMARY_PORT>1</PRIMARY_PORT>
+     <PRIMARY_VAR>1</PRIMARY_VAR>
+     <DUP_TYPE>0</DUP_TYPE>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>6</SUB_ID>
+     <TITLE>current at port 3</TITLE>
+     <VARNAME>I3</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>A</UNITS>
+    </EVAR>
+   </PORT>
+   <PORT>
+    <PORT_TAG>undefined</PORT_TAG>
+    <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+    <USE_REQUIRED>0</USE_REQUIRED>
+    <EVAR>
+     <SUB_ID>65</SUB_ID>
+     <TITLE>heat flow rate at port 2</TITLE>
+     <VARNAME>ohfs</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>2</IO>
+     <UNITS>W</UNITS>
+    </EVAR>
+    <EVAR>
+     <SUB_ID>67</SUB_ID>
+     <TITLE>temperature at port 2</TITLE>
+     <VARNAME>its</VARNAME>
+     <VISIBILITY>True</VISIBILITY>
+     <TYPE>0</TYPE>
+     <DIMENSION>1</DIMENSION>
+     <IO>1</IO>
+     <UNITS>degC</UNITS>
+    </EVAR>
+   </PORT>
+  </EVARS_LIST>
+  <CIR_PORTS_OVER_FRAMEWORK>1</CIR_PORTS_OVER_FRAMEWORK>
+  <SUBIDS_RESET>0</SUBIDS_RESET>
+ </SUBMODEL>
+</SPE>

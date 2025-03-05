@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE SUB>
+<SUB DOC_VERSION="2" AME_VERSION="2020.2" MAJ="20202" MIN="" PATCH="">
+
+ <SUPERCOMPONENT>
+  <SC_SUB_NAME>ELECTRONICS</SC_SUB_NAME>
+  <CATNAME>Bolt_supercomponents</CATNAME>
+  <SC_PORTS_MAP_LIST>
+   <SC_PORT_MAP>2 1 120 154 2 elect 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>1 2 120 80 2 elect 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>1 1 144 80 3 elect 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>2 2 144 154 3 elect 0.000000 0.000000</SC_PORT_MAP>
+   <SC_PORT_MAP>0 1 156 117 3 thermal 0.000000 0.000000</SC_PORT_MAP>
+  </SC_PORTS_MAP_LIST>
+  <CIRCUIT>
+   <AME_APPLICATION>AMESim</AME_APPLICATION>
+   <COMPS_LIST>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>ae_GenericLoad_QS_1</ALIAS>
+     <COMP_NAME>ae_GenericLoad_QS</COMP_NAME>
+     <COMP_DISPLAYNAME>ae_GenericLoad_QS</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>quasi static generic load</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>ae.ae_GenericLoad_QS</COMP_LIBRARY_ID>
+     <COMP_POS>107 92</COMP_POS>
+     <COMP_DEPTH>201</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACCq1UTXPTMBC991fsiENgxl9SnKbu2OnAAS4wwwHOGeMojqhieSTVdvj1rOR80KZl2oKTkTcr5e3b99bOb4athI5rI1RTTGiUTIA3lVqJpi4m3799DK8mN4uL3HQ1DAVJ2oGAwuNrqfqCmEorKQn8KA3/qtVaSF4QK5odAbEqyGfRcSnVkhLoxcpuCpJmDmDDRb2xh19IoDHXgxTNbUE21rbXcdz3fdRPI6XrmGZZFvtdArs9g07w/oNyfCCBNMOvh7k2bVkhg1Zzw3XHybExQiO2r/RYDZYkSYwtksUF5DUukFdCV5KDdn+dEaiw9NwFxmp1y8OtsFxLgTc8kBzT+zaT08mCvEn8hRhImGa4FfsKvs7hBrnmlXUS05NabH4Exv75TyWwE63umtVJwz/OPOS0G8HQFYks1v56yJSd84xHXvGow/5m+WDB6rIxa6W3BdmWVovhLQXnAAU6jWbAsLd3WE81NjTiF0LSS+eWT6zLrZDIaPJei1JOyOJTHjvQ56CzWZSls+kLC3w+FhibyGs/lNWdsct0aUTdlJL48k5c2FFUI3XGDdQ5iMrt2DGF0dVf7B81blTDn9Azb5Xc+TotumhxCtOAUcgChw8YXwG8Gv28v+mSS5ynsb22tBvAnS+uVpBUSeA/Lg6ooT6iATMhC1g0wzXFJB2THf2PrNjSbrjeHmQ/k2SKEgfs0gkyvx8hLxh3XQTPEfxk6uXB1NQ/yt5VdnB1zL0OLn0ELn0p3HHk3Evs/sSl8+eAnetMn3Y/zbqQVknoPd+vzvnQOx+i8yHdJ5MQRyP8R/9z91pdXPwGAA3jzGcGAAA=
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_GRAPHICS>
+       IDxQT1JUUz4KICA8UE9SVCBmYWNlPSIxIiB4PSIyNSIgeT0iNDkiIHR5cGU9ImVsZWN0Ij4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvZWxlY3QxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgZmFjZT0iMyIgeD0iNDkiIHk9IjI1IiB0eXBlPSJ0aGVybWFsIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvdGhlcm1hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIwIiB4PSIyNSIgeT0iMSIgdHlwZT0iZWxlY3QiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9lbGVjdDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIyIiB4PSIxIiB5PSIyNSIgdHlwZT0ic2lnbmFsIj4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvc2lnbmFsMXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogPC9QT1JUUz4K
+      </CIR_PORT_GRAPHICS>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>1</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>25 49</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>elect</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>2</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>49 25</PORT_POS>
+       <PORT_FACE>3</PORT_FACE>
+       <PORT_TYPE>thermal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>54</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>25 1</PORT_POS>
+       <PORT_FACE>0</PORT_FACE>
+       <PORT_TYPE>elect</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>1 25</PORT_POS>
+       <PORT_FACE>2</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>3</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>122</CIRCUIT_SCOPE_ID>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>AEGL01</SUB_NAME>
+      <SUB_DIR>$AME/libae/submodels</SUB_DIR>
+      <SUB_ID_MAX>112</SUB_ID_MAX>
+      <SUB_LABEL>quasi static generic load</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <R_STORES_NUMBER>12</R_STORES_NUMBER>
+      <I_STORES_NUMBER>6</I_STORES_NUMBER>
+      <DISCONTINUITY>1</DISCONTINUITY>
+      <TIME_REQUIRED>1</TIME_REQUIRED>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <RPARAMS_LIST>
+       <RPARAM>
+        <SUB_ID>33</SUB_ID>
+        <TITLE>output of stage 1</TITLE>
+        <VARNAME>output1</VARNAME>
+        <VISIBILITY>(prof == 1)||(prof == 2)||(prof == 3)||(prof == 4)||(prof == 5)||(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>9.00000000000000e+01</DEF_VALUE>
+        <VALUE>9.00000000000000e+01</VALUE>
+        <MIN_VALUE>-1.00000000000000e+06</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>34</SUB_ID>
+        <TITLE>duration of stage 1</TITLE>
+        <VARNAME>duration1</VARNAME>
+        <VISIBILITY>(prof == 1)||(prof == 2)||(prof == 3)||(prof == 4)||(prof == 5)||(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>35</SUB_ID>
+        <TITLE>output of stage 2</TITLE>
+        <VARNAME>output2</VARNAME>
+        <VISIBILITY>(prof == 2)||(prof == 3)||(prof == 4)||(prof == 5)||(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+06</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>36</SUB_ID>
+        <TITLE>duration of stage 2</TITLE>
+        <VARNAME>duration2</VARNAME>
+        <VISIBILITY>(prof == 2)||(prof == 3)||(prof == 4)||(prof == 5)||(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>37</SUB_ID>
+        <TITLE>output of stage 3</TITLE>
+        <VARNAME>output3</VARNAME>
+        <VISIBILITY>(prof == 3)||(prof == 4)||(prof == 5)||(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+06</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>38</SUB_ID>
+        <TITLE>duration of stage 3</TITLE>
+        <VARNAME>duration3</VARNAME>
+        <VISIBILITY>(prof == 3)||(prof == 4)||(prof == 5)||(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>39</SUB_ID>
+        <TITLE>output of stage 4</TITLE>
+        <VARNAME>output4</VARNAME>
+        <VISIBILITY>(prof == 4)||(prof == 5)||(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+06</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>40</SUB_ID>
+        <TITLE>duration of stage 4</TITLE>
+        <VARNAME>duration4</VARNAME>
+        <VISIBILITY>(prof == 4)||(prof == 5)||(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>41</SUB_ID>
+        <TITLE>output of stage 5</TITLE>
+        <VARNAME>output5</VARNAME>
+        <VISIBILITY>(prof == 5)||(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+06</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>42</SUB_ID>
+        <TITLE>duration of stage 5</TITLE>
+        <VARNAME>duration5</VARNAME>
+        <VISIBILITY>(prof == 5)||(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>43</SUB_ID>
+        <TITLE>output of stage 6</TITLE>
+        <VARNAME>output6</VARNAME>
+        <VISIBILITY>(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+06</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>44</SUB_ID>
+        <TITLE>duration of stage 6</TITLE>
+        <VARNAME>duration6</VARNAME>
+        <VISIBILITY>(prof == 6)||(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>45</SUB_ID>
+        <TITLE>output of stage 7</TITLE>
+        <VARNAME>output7</VARNAME>
+        <VISIBILITY>(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+06</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>46</SUB_ID>
+        <TITLE>duration of stage 7</TITLE>
+        <VARNAME>duration7</VARNAME>
+        <VISIBILITY>(prof == 7)||(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>47</SUB_ID>
+        <TITLE>output of stage 8</TITLE>
+        <VARNAME>output8</VARNAME>
+        <VISIBILITY>(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+06</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>48</SUB_ID>
+        <TITLE>duration of stage 8</TITLE>
+        <VARNAME>duration8</VARNAME>
+        <VISIBILITY>(prof == 8)||(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>49</SUB_ID>
+        <TITLE>output of stage 9</TITLE>
+        <VARNAME>output9</VARNAME>
+        <VISIBILITY>(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+06</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>50</SUB_ID>
+        <TITLE>duration of stage 9</TITLE>
+        <VARNAME>duration9</VARNAME>
+        <VISIBILITY>(prof == 9)||(prof == 10)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>84</SUB_ID>
+        <TITLE>output of stage 10</TITLE>
+        <VARNAME>output10</VARNAME>
+        <VISIBILITY>(prof == 10)</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>-1.00000000000000e+06</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>85</SUB_ID>
+        <TITLE>duration of stage 10</TITLE>
+        <VARNAME>duration10</VARNAME>
+        <VISIBILITY>(prof == 10)</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e+06</DEF_VALUE>
+        <VALUE>1.00000000000000e+06</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>s</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>32</SUB_ID>
+        <TITLE>voltage reference</TITLE>
+        <VARNAME>Ufixed</VARNAME>
+        <VISIBILITY>(modeltype == 2)</VISIBILITY>
+        <DEF_VALUE>1.20000000000000e+01</DEF_VALUE>
+        <VALUE>1.20000000000000e+01</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>V</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>72</SUB_ID>
+        <TITLE>reference temperature</TITLE>
+        <VARNAME>T0</VARNAME>
+        <VISIBILITY>(tinf == 1)</VISIBILITY>
+        <DEF_VALUE>2.00000000000000e+01</DEF_VALUE>
+        <VALUE>2.00000000000000e+01</VALUE>
+        <MIN_VALUE>-2.73150000000000e+02</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+09</MAX_VALUE>
+        <UNITS>degC</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>73</SUB_ID>
+        <TITLE>corrective coefficient alpha</TITLE>
+        <VARNAME>alpha</VARNAME>
+        <VISIBILITY>(tinf == 1)</VISIBILITY>
+        <DEF_VALUE>4.00000000000000e-03</DEF_VALUE>
+        <VALUE>4.00000000000000e-03</VALUE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>93</SUB_ID>
+        <TITLE>minimum voltage</TITLE>
+        <VARNAME>Umin</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>1.00000000000000e-01</DEF_VALUE>
+        <VALUE>1.00000000000000e-01</VALUE>
+        <MIN_VALUE>1.00000000000000e-06</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+06</MAX_VALUE>
+        <UNITS>V</UNITS>
+       </RPARAM>
+       <RPARAM>
+        <SUB_ID>95</SUB_ID>
+        <TITLE>efficiency</TITLE>
+        <VARNAME>eff</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <MIN_VALUE>0.00000000000000e+00</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+00</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+      </RPARAMS_LIST>
+      <IPARAMS_LIST>
+       <IPARAM>
+        <SUB_ID>51</SUB_ID>
+        <TITLE>profile type</TITLE>
+        <VARNAME>modeltype</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>3</DEF_VALUE>
+        <VALUE>3</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>3</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>current</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>current (constant impedance)</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACCm2Pz07DMAzGz0zaO1i+DA7rn21MtGo2wQ2JA2+AsjZtLdKkSkLT8fQkowcOSJYs259/9led50HCJIwlrRjmSYYgVK0bUh3DL9dun/B8Wq8qO3V/ZTuEC7fi3eiWpGDoSF0RqGH4RpOQUn/kuF7dQaAry7B3bizT1Huf+H2iTZfusixLAxR/JeUsSX3+J8yLokhv0yBlmI0zwnXJnhrXMzwUsegFdb1bqnh7IuFfdNyBDA5FCAQdPLRSe4a2NlrK2/nSjrwOJkYjrDCTwGjYidmBM1zZVpuB4cCdofk+h0jLYZ8nj7A/PiC0WrltyweS4a3NsyEuN0vX0nfAHsM/p9cqjcRIjrZD/gEYwqFCewEAAA==
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>power</ENUM_STRING>
+          <ICON_MAP>
+           <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+           <ICON_MAP_DATA>
+            H4sIAAAAAAACCm2PwW6DMAyGz6vUd7B86XYohLarBiKttvMOfYOJQgBrIUFJRuiefknHYYdJlizbvz/7L8/zIGESxpJWHLOEIQhV64ZUx/HLtdsXPJ/Wq9JO3V/ZDuFaWXExuiUpODpSNwRqOL7TJKTUHxmuVw8Q6Mpy7J0bizT13id+n2jTpTvGWBqg+CspZknq8z9hlud5ep8GKUc2zgi3JXtqXM/xkMeiF9T1bqni7YmEf9NxBxgc8hAIOnhopfYcbW20lPfzhR2rOpgYjbDCTAKjYSdmB85UyrbaDByHyhmaHzOItAz2WfIM++MTQquV27bVQDK8tXk1VMnN0rX0HbDH8M/pUqaRGMnRdsg/7YYBlHsBAAA=
+           </ICON_MAP_DATA>
+          </ICON_MAP>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>80</SUB_ID>
+        <TITLE>profile definition</TITLE>
+        <VARNAME>prof</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>11</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>1 stage</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>2 stages</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>3 stages</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>4 stages</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>5 stages</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>6 stages</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>7 stages</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>8 stages</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>9 stages</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>10 stages</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>data files</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>74</SUB_ID>
+        <TITLE>temperature influence</TITLE>
+        <VARNAME>tinf</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>2</DEF_VALUE>
+        <VALUE>2</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>2</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>yes</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>no</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>56</SUB_ID>
+        <TITLE>cyclic</TITLE>
+        <VARNAME>iscyclic</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>1</DEF_VALUE>
+        <VALUE>1</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>2</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>no</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>yes</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+       <IPARAM>
+        <SUB_ID>81</SUB_ID>
+        <TITLE>discontinuity handling</TITLE>
+        <VARNAME>disc</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <DEF_VALUE>2</DEF_VALUE>
+        <VALUE>2</VALUE>
+        <MIN_VALUE>1</MIN_VALUE>
+        <MAX_VALUE>2</MAX_VALUE>
+        <ENUM_LIST>
+         <ENUM>
+          <ENUM_STRING>no</ENUM_STRING>
+         </ENUM>
+         <ENUM>
+          <ENUM_STRING>yes</ENUM_STRING>
+         </ENUM>
+        </ENUM_LIST>
+       </IPARAM>
+      </IPARAMS_LIST>
+      <TPARAMS_LIST>
+       <TPARAM>
+        <SUB_ID>77</SUB_ID>
+        <TITLE>name of ASCII file</TITLE>
+        <VARNAME>filename</VARNAME>
+        <VISIBILITY>(prof == 11)</VISIBILITY>
+        <DEF_VALUE>file.data</DEF_VALUE>
+        <VALUE>file.data</VALUE>
+        <TEXT_TYPE>1</TEXT_TYPE>
+       </TPARAM>
+      </TPARAMS_LIST>
+      <PARAMS_GROUPS_LIST>
+       <PARAMS_GROUP>
+        <ORIG_TITLE>profile data file</ORIG_TITLE>
+        <NAME>pdf</NAME>
+        <SUB_ID>76</SUB_ID>
+        <CIRCUIT_SCOPE_ID>47</CIRCUIT_SCOPE_ID>
+        <EDITABLE_TITLE>1</EDITABLE_TITLE>
+        <PARAM_GROUP_ELEMENT_LIST>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>filename</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>0</PARAM_GROUP_ELEMENT_DISPLAY>
+          <PARAM_GROUP_ELEMENT_KEYWORD>table file</PARAM_GROUP_ELEMENT_KEYWORD>
+         </PARAM_GROUP_ELEMENT>
+        </PARAM_GROUP_ELEMENT_LIST>
+        <EDITABLE>1</EDITABLE>
+        <EDITION_TOOL>AMETable</EDITION_TOOL>
+        <EDITION_TOOL_TYPE>1</EDITION_TOOL_TYPE>
+        <PARAM_TYPE>1</PARAM_TYPE>
+        <ORIGINAL_EDITION_TOOL>AMETable</ORIGINAL_EDITION_TOOL>
+        <ORIGINAL_EDITION_TOOL_TYPE>1</ORIGINAL_EDITION_TOOL_TYPE>
+        <ORIGINAL_PARAM_TYPE>1</ORIGINAL_PARAM_TYPE>
+       </PARAMS_GROUP>
+       <PARAMS_GROUP>
+        <ORIG_TITLE>power, energy, activity</ORIG_TITLE>
+        <NAME>powers</NAME>
+        <SUB_ID>112</SUB_ID>
+        <CIRCUIT_SCOPE_ID>48</CIRCUIT_SCOPE_ID>
+        <EDITABLE_TITLE>1</EDITABLE_TITLE>
+        <PARAM_GROUP_ELEMENT_LIST>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>powerRload</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>1</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>powerRSheat</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>1</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>energyRload</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>2</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>energyRSheat</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>2</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>actRload</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>2</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+         <PARAM_GROUP_ELEMENT>
+          <PARAM_GROUP_ELEMENT_VARNAME>actRSheat</PARAM_GROUP_ELEMENT_VARNAME>
+          <PARAM_GROUP_ELEMENT_DISPLAY>2</PARAM_GROUP_ELEMENT_DISPLAY>
+         </PARAM_GROUP_ELEMENT>
+        </PARAM_GROUP_ELEMENT_LIST>
+        <EDITABLE>0</EDITABLE>
+       </PARAMS_GROUP>
+      </PARAMS_GROUPS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>88</SUB_ID>
+        <TITLE>output voltage</TITLE>
+        <VARNAME>U</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>V</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>89</SUB_ID>
+        <TITLE>output current</TITLE>
+        <VARNAME>I</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>0</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>A</UNITS>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>102</SUB_ID>
+        <TITLE>activity of electrical dissipation (load)</TITLE>
+        <VARNAME>actRload</VARNAME>
+        <VARNAME2>dactRload</VARNAME2>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>1</TYPE>
+        <SAVE_VALUE>0</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>J</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <PHYS_TYPE>1</PHYS_TYPE>
+        <PHYS_DOMAIN>3</PHYS_DOMAIN>
+        <ACT_SUFFIX>load</ACT_SUFFIX>
+        <ACT_TYPE>1</ACT_TYPE>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>108</SUB_ID>
+        <TITLE>power of electrical dissipation (load)</TITLE>
+        <VARNAME>powerRload</VARNAME>
+        <VARNAME2>dactRload</VARNAME2>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>9</TYPE>
+        <SAVE_VALUE>0</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>W</UNITS>
+        <PHYS_TYPE>1</PHYS_TYPE>
+        <PHYS_DOMAIN>3</PHYS_DOMAIN>
+        <ACT_SUFFIX>load</ACT_SUFFIX>
+        <ACT_TYPE>2</ACT_TYPE>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>109</SUB_ID>
+        <TITLE>energy of electrical dissipation (load)</TITLE>
+        <VARNAME>energyRload</VARNAME>
+        <VARNAME2>denergyRload</VARNAME2>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>1</TYPE>
+        <SAVE_VALUE>0</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>J</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <PHYS_TYPE>1</PHYS_TYPE>
+        <PHYS_DOMAIN>3</PHYS_DOMAIN>
+        <ACT_SUFFIX>load</ACT_SUFFIX>
+        <ACT_TYPE>3</ACT_TYPE>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>110</SUB_ID>
+        <TITLE>power of electrical resistive-source (heat)</TITLE>
+        <VARNAME>powerRSheat</VARNAME>
+        <VARNAME2>dactRheat</VARNAME2>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>9</TYPE>
+        <SAVE_VALUE>0</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>W</UNITS>
+        <PHYS_TYPE>5</PHYS_TYPE>
+        <PHYS_DOMAIN>3</PHYS_DOMAIN>
+        <ACT_SUFFIX>heat</ACT_SUFFIX>
+        <ACT_TYPE>2</ACT_TYPE>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>106</SUB_ID>
+        <TITLE>activity of electrical resistive-source (heat)</TITLE>
+        <VARNAME>actRSheat</VARNAME>
+        <VARNAME2>dactRSheat</VARNAME2>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>1</TYPE>
+        <SAVE_VALUE>0</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>J</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <PHYS_TYPE>5</PHYS_TYPE>
+        <PHYS_DOMAIN>3</PHYS_DOMAIN>
+        <ACT_SUFFIX>heat</ACT_SUFFIX>
+        <ACT_TYPE>1</ACT_TYPE>
+       </IVAR>
+       <IVAR>
+        <SUB_ID>111</SUB_ID>
+        <TITLE>energy of electrical resistive-source (heat)</TITLE>
+        <VARNAME>energyRSheat</VARNAME>
+        <VARNAME2>denergyRSheat</VARNAME2>
+        <VISIBILITY>True</VISIBILITY>
+        <TYPE>1</TYPE>
+        <SAVE_VALUE>0</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>J</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0.00000000000000e+00</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+        <PHYS_TYPE>5</PHYS_TYPE>
+        <PHYS_DOMAIN>3</PHYS_DOMAIN>
+        <ACT_SUFFIX>heat</ACT_SUFFIX>
+        <ACT_TYPE>3</ACT_TYPE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>61</SUB_ID>
+         <TITLE>current at port 1</TITLE>
+         <VARNAME>I1</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>A</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>58</SUB_ID>
+         <TITLE>potential at port 1</TITLE>
+         <VARNAME>V1</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>V</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>65</SUB_ID>
+         <TITLE>heat flow rate at port 2</TITLE>
+         <VARNAME>ohfs</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>W</UNITS>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>67</SUB_ID>
+         <TITLE>temperature at port 2</TITLE>
+         <VARNAME>its</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>degC</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>91</SUB_ID>
+         <TITLE>current at port 1</TITLE>
+         <VARNAME>I3</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>0</PRIMARY_PORT>
+         <PRIMARY_VAR>0</PRIMARY_VAR>
+         <DUP_TYPE>1</DUP_TYPE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>60</SUB_ID>
+         <TITLE>potential at port 3</TITLE>
+         <VARNAME>V3</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>V</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>8</SUB_ID>
+         <TITLE>command signal at port 4 (off:0, on:1)</TITLE>
+         <VARNAME>input</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>3_ports_electrical_node_2</ALIAS>
+     <COMP_NAME>3_ports_electrical_node</COMP_NAME>
+     <COMP_DISPLAYNAME>3_ports_electrical_node</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>electric junction 3 ports</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>eb.3_ports_electrical_node</COMP_LIBRARY_ID>
+     <COMP_POS>119 67</COMP_POS>
+     <COMP_DEPTH>202</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACCsWSPW/DIBCG9/wKRIcs/gBSS01kEqlDp1bq0M5RSoiNQsACajv/vgdyMrSROnQosg9zd3rf5yzqzXjSqJfOK2v4nBZkjqQRdq9Mw+fvb0/5w3yzntW+b9DIMelGjCy0H7QdOPbCWa0x+th5+ersQWnJcVDmjJHac/yseqm13VKMBrUPLcesigKtVE0bLicAMH41amWOHLchdKuyHIahGBaFdU1Jl8tlmaoYnSeCXsnh0UYeRBCr4EkyK9/tBBB0Tnrpeomvg2FasMnplgcjhJQwIl7PUC2UE1oiB3wF6AowpenLB2ePMj+pIJ1WsEGBYARTa47vDmlduiBB0gKBcRIoo3qT/oz49GG72EotRYimqO52oUVQeSFZbG6pIEWVkSxGmrGMesjmLLvPmafXHIUOeH9hM9bIn2AJp2y+QbGbULT6Xyp6m4pFy6oHqkiU0ykyz7JYAi4PRzolE1RG/4ZVx3uynn0B8P06dDgDAAA=
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_GRAPHICS>
+       IDxQT1JUUz4KICA8UE9SVCBmYWNlPSIxIiB4PSIxMyIgeT0iMjUiIHR5cGU9ImVsZWN0Ij4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvZWxlY3QxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiAgPFBPUlQgZmFjZT0iMyIgeD0iMjUiIHk9IjEzIiB0eXBlPSJlbGVjdCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL2VsZWN0MXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogIDxQT1JUIGZhY2U9IjIiIHg9IjEiIHk9IjEzIiB0eXBlPSJlbGVjdCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL2VsZWN0MXB4LnN2ZzwvUE9SVF9CSVRNQVA+CiAgPC9QT1JUPgogPC9QT1JUUz4K
+      </CIR_PORT_GRAPHICS>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>1</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>13 25</PORT_POS>
+       <PORT_FACE>1</PORT_FACE>
+       <PORT_TYPE>elect</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>0</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>2</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>25 13</PORT_POS>
+       <PORT_FACE>3</PORT_FACE>
+       <PORT_TYPE>elect</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>6</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>1 13</PORT_POS>
+       <PORT_FACE>2</PORT_FACE>
+       <PORT_TYPE>elect</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>14</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>123</CIRCUIT_SCOPE_ID>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>EB3N03</SUB_NAME>
+      <SUB_DIR>$AME/libeb/submodels</SUB_DIR>
+      <SUB_ID_MAX>6</SUB_ID_MAX>
+      <SUB_LABEL>electric junction 3 ports (voltage fixed by port 3)</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <HAS_NO_CALC>1</HAS_NO_CALC>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <EVARS_LIST>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>potential at port 3</TITLE>
+         <VARNAME>V1</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>2</PRIMARY_PORT>
+         <PRIMARY_VAR>1</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>2</SUB_ID>
+         <TITLE>current at port 1</TITLE>
+         <VARNAME>I1</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>A</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>3</SUB_ID>
+         <TITLE>potential at port 3</TITLE>
+         <VARNAME>V2</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>2</PRIMARY_PORT>
+         <PRIMARY_VAR>1</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>4</SUB_ID>
+         <TITLE>current at port 2</TITLE>
+         <VARNAME>I2</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>A</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>5</SUB_ID>
+         <TITLE>current at port 3</TITLE>
+         <VARNAME>I3</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>A</UNITS>
+         <EXPRESS2>@_1_2+@_2_2</EXPRESS2>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>6</SUB_ID>
+         <TITLE>potential at port 3</TITLE>
+         <VARNAME>V3</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>V</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACCq2S0U7DIBSGr2eydyDH29ICrolbhiZea+IbLJOxloyVBrDd3t5D7cw0S4yLTcuBvz/nfKdl+XjYW9JpH4xrJPCcAdGNchvTVBLe45bew+PD9GYZuurcJoC8rYN+9W5rrJYQTXMEYjYSnk2nrXUrDtObCcHsTZBQx9guiqLv+7y/y52vCsEYKzApfFoWB2ua3SUjn8/nxfAWrRJYewByHGNvNrGWIMq0qLWp6jiuUu3O6P7JpT2EEVHiDcRhD1vreglBeWftUH4R2rXCJlqvg/adhtRwNXSj3kNc3a201SomebJs17Em2LSV0LhGAwnRux3uvmXDdRLoCe5L2JuovTUY8AuiD9O/sIyLvKy5YnmZsSyNPBMZD6hSkc2oCPykYfVJ4OjCB4rEWFQ/SMVVpJfAePkHsl+o+P9RYfFMlB1FLDogjaMIVNCBjM4Cp3wUGUUqyr9xDRTKeGX1VRwKT1TiwNnxNPP4nzGelUlnG+MHt2Td3WADAAA=
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>3_ports_electrical_node_3</ALIAS>
+     <COMP_NAME>3_ports_electrical_node</COMP_NAME>
+     <COMP_DISPLAYNAME>3_ports_electrical_node</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>electric junction 3 ports</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>eb.3_ports_electrical_node</COMP_LIBRARY_ID>
+     <COMP_POS>119 141</COMP_POS>
+     <COMP_DEPTH>203</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACCsWSPW/DIBCG9/wKRIcs/gBSS01kEqlDp1bq0M5RSoiNQsACajv/vgdyMrSROnQosg9zd3rf5yzqzXjSqJfOK2v4nBZkjqQRdq9Mw+fvb0/5w3yzntW+b9DIMelGjCy0H7QdOPbCWa0x+th5+ersQWnJcVDmjJHac/yseqm13VKMBrUPLcesigKtVE0bLicAMH41amWOHLchdKuyHIahGBaFdU1Jl8tlmaoYnSeCXsnh0UYeRBCr4EkyK9/tBBB0Tnrpeomvg2FasMnplgcjhJQwIl7PUC2UE1oiB3wF6AowpenLB2ePMj+pIJ1WsEGBYARTa47vDmlduiBB0gKBcRIoo3qT/oz49GG72EotRYimqO52oUVQeSFZbG6pIEWVkSxGmrGMesjmLLvPmafXHIUOeH9hM9bIn2AJp2y+QbGbULT6Xyp6m4pFy6oHqkiU0ykyz7JYAi4PRzolE1RG/4ZVx3uynn0B8P06dDgDAAA=
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_GRAPHICS>
+       IDxQT1JUUz4KICA8UE9SVCBmYWNlPSIwIiB4PSIxMyIgeT0iMSIgdHlwZT0iZWxlY3QiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9lbGVjdDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIyIiB4PSIxIiB5PSIxMyIgdHlwZT0iZWxlY3QiPgogICA8UE9SVF9CSVRNQVA+JEFNRS9JY29ucy9lbGVjdDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KICA8UE9SVCBmYWNlPSIzIiB4PSIyNSIgeT0iMTMiIHR5cGU9ImVsZWN0Ij4KICAgPFBPUlRfQklUTUFQPiRBTUUvSWNvbnMvZWxlY3QxcHguc3ZnPC9QT1JUX0JJVE1BUD4KICA8L1BPUlQ+CiA8L1BPUlRTPgo=
+      </CIR_PORT_GRAPHICS>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>3</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>13 1</PORT_POS>
+       <PORT_FACE>0</PORT_FACE>
+       <PORT_TYPE>elect</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>0</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>0</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>1 13</PORT_POS>
+       <PORT_FACE>2</PORT_FACE>
+       <PORT_TYPE>elect</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>13</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+      <COMP_PORT>
+       <PORT_POS>25 13</PORT_POS>
+       <PORT_FACE>3</PORT_FACE>
+       <PORT_TYPE>elect</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>0</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>-1</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>1</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>124</CIRCUIT_SCOPE_ID>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>EB3N02</SUB_NAME>
+      <SUB_DIR>$AME/libeb/submodels</SUB_DIR>
+      <SUB_ID_MAX>6</SUB_ID_MAX>
+      <SUB_LABEL>electric junction 3 ports (voltage fixed by port 2)</SUB_LABEL>
+      <SUB_UNIT>0</SUB_UNIT>
+      <HAS_NO_CALC>1</HAS_NO_CALC>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <EVARS_LIST>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>1</SUB_ID>
+         <TITLE>potential at port 2</TITLE>
+         <VARNAME>V1</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>1</PRIMARY_PORT>
+         <PRIMARY_VAR>1</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>2</SUB_ID>
+         <TITLE>current at port 1</TITLE>
+         <VARNAME>I1</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>A</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>3</SUB_ID>
+         <TITLE>current at port 2</TITLE>
+         <VARNAME>I2</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>7</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <UNITS>A</UNITS>
+         <EXPRESS2>@_1_2+@_3_2</EXPRESS2>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>4</SUB_ID>
+         <TITLE>potential at port 2</TITLE>
+         <VARNAME>V2</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>V</UNITS>
+        </EVAR>
+       </PORT>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>5</SUB_ID>
+         <TITLE>potential at port 2</TITLE>
+         <VARNAME>V3</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>4</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <PRIMARY_PORT>1</PRIMARY_PORT>
+         <PRIMARY_VAR>1</PRIMARY_VAR>
+         <DUP_TYPE>0</DUP_TYPE>
+        </EVAR>
+        <EVAR>
+         <SUB_ID>6</SUB_ID>
+         <TITLE>current at port 3</TITLE>
+         <VARNAME>I3</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>1</IO>
+         <UNITS>A</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACCq2SUU/DIBDHn2fidyDna2mB2cQtQxOfNfEbLJOxlsigAdZu396jbmYao9FICgf/Hne/u7C4228t6XWIxjsJvGRAtFN+bVwjYZc29Abubi8vFrFvzt0EkOdV1E/Bb4zVEpJxByBmLeHB9Npav+RweTEhGN1FCW1K3byqhmEoh2npQ1MJxliFQeHNZb63xr185chns1k1/kVXCazbAzkc7WDWqZUg6nxotWnadDzl3L3Rw73PdwgjosYPiMcaNtYPEqIK3tox/Tx2K4VFdEFHHXoNueBmrEbtYlpOl9pqlbI8WXSr1BIs2kpw3mkgMQX/grev2DhOAt2apIM1aLBhKGO0R1ZwUdYtV6ysC1bklRei4BFVKoprKiJ/1zh64IQq41TNJyjxJ6hTx76l5PUvMDH95AdU/m/9y1iFqHuKaHTEOq4iUkFHOnodOeVHkVGkovwD10ihTFBW/4lD4YvKHLg7nHYBW4r2LE1+22hfAeBR3DJgAwAA
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+    <COMP>
+     <COMP_TYPE>0</COMP_TYPE>
+     <ALIAS>constant_5</ALIAS>
+     <COMP_NAME>constant</COMP_NAME>
+     <COMP_DISPLAYNAME>constant</COMP_DISPLAYNAME>
+     <COMP_ICON_DESCRIPTION>constant signal source</COMP_ICON_DESCRIPTION>
+     <COMP_LIBRARY_ID>sig.constant</COMP_LIBRARY_ID>
+     <COMP_POS>67 102</COMP_POS>
+     <COMP_DEPTH>204</COMP_DEPTH>
+     <CIR_COMP_ICON>
+      <CIR_ICON_IDENTITY>1</CIR_ICON_IDENTITY>
+      <ICON_MAP>
+       <ICON_MAP_FORMAT>svgz/base64</ICON_MAP_FORMAT>
+       <ICON_MAP_DATA>
+        H4sIAAAAAAACCoWRTY/bIBCG7/kVo9mDW2mDwc5q7chk1R566qGH9hy5DnZQMFhA/dFfX6DZ7aGVipAHz8A788w0L+uoYBbWSaN5xgjNQOjOXKQeePbt66d9lb2cdo2bB1g50mlFMOF6r8zC0XXWKIXwvXXiizW9VIKjl3pDkBeOn+UslDJnhrDIi79yPCSBq5DD1XMs6vgXCtDuuCqpbxyv3k/HPF+WhSwlMXbIWV3XeYoibPcKZimWjybWAxQOFIo6yRzd1HahgskKJ+ws8A0MGSnumf6Vo6CU5gERTztohvCBppO2UwJseHpA6LZoyROC89bcxH6UXlglgwkBihDQFceHPq3XW8FB0woC610gT+perB68bbXrjR05jq23cn3HIAIxYGFXpCgP7H2QNtrvnfwpokKkT46+HaUKVWUfrGxVhqdbk0fVSJAPiSPNoPvh/JmdnRx0qzAlD70UsLFXojWcyjI0t3jzFHFS/2HVRou/QX/jTUZtg9EwGal96HhRPTJGnqAsCHuMOSB6nu+2IhWUJan/RCgpAJJWYmnibE67X6PdzhKsAgAA
+       </ICON_MAP_DATA>
+      </ICON_MAP>
+      <CIR_PORT_GRAPHICS>
+       IDxQT1JUUz4KICA8UE9SVCBmYWNlPSIzIiB4PSI0MCIgeT0iMTUiIHR5cGU9InNpZ25hbCI+CiAgIDxQT1JUX0JJVE1BUD4kQU1FL0ljb25zL3NpZ25hbDFweC5zdmc8L1BPUlRfQklUTUFQPgogIDwvUE9SVD4KIDwvUE9SVFM+Cg==
+      </CIR_PORT_GRAPHICS>
+      <CIR_PORT_HIDDEN>0</CIR_PORT_HIDDEN>
+     </CIR_COMP_ICON>
+     <COMP_SCALE_X>1.000000</COMP_SCALE_X>
+     <COMP_SCALE_Y>1.000000</COMP_SCALE_Y>
+     <COMP_GEOMETRY>1</COMP_GEOMETRY>
+     <COMP_PORTS_LIST>
+      <COMP_PORT>
+       <PORT_POS>40 15</PORT_POS>
+       <PORT_FACE>3</PORT_FACE>
+       <PORT_TYPE>signal</PORT_TYPE>
+       <PORT_NAME></PORT_NAME>
+       <PORT_DECORATION_VISIBLE>0</PORT_DECORATION_VISIBLE>
+       <PORT_DECORATION_ORIENTATION>0</PORT_DECORATION_ORIENTATION>
+       <PORT_DECORATION_BOUNDING_RECT>0 0 0 0</PORT_DECORATION_BOUNDING_RECT>
+       <PORT_CONNECT>1</PORT_CONNECT>
+       <CONNECT_LIST>
+        <CONNECT>
+         <CONNECT_ENTITY_NUM>0</CONNECT_ENTITY_NUM>
+         <CONNECT_ENTITY_PORT>3</CONNECT_ENTITY_PORT>
+        </CONNECT>
+       </CONNECT_LIST>
+      </COMP_PORT>
+     </COMP_PORTS_LIST>
+     <LABEL_POS>0 0 0 0</LABEL_POS>
+     <LABEL_VISIBLE>0</LABEL_VISIBLE>
+     <CIRCUIT_SCOPE_ID>133</CIRCUIT_SCOPE_ID>
+     <SUBMODEL>
+      <SUB_TYPE>0</SUB_TYPE>
+      <SUB_NAME>CONS00</SUB_NAME>
+      <SUB_DIR>$AME/libsig/submodels</SUB_DIR>
+      <SUB_ID_MAX>28</SUB_ID_MAX>
+      <SUB_LABEL>constant signal</SUB_LABEL>
+      <SUB_UNIT>1</SUB_UNIT>
+      <DISCONTINUITY>1</DISCONTINUITY>
+      <OUTPUT_TYPE>1</OUTPUT_TYPE>
+      <RPARAMS_LIST>
+       <RPARAM>
+        <SUB_ID>3</SUB_ID>
+        <TITLE>constant value</TITLE>
+        <VARNAME>k</VARNAME>
+        <VISIBILITY>True</VISIBILITY>
+        <TUNABLE>True</TUNABLE>
+        <DEF_VALUE>1.00000000000000e+00</DEF_VALUE>
+        <VALUE>1.00000000000000e+00</VALUE>
+        <HISTORY_VARIABLE>k0GEN</HISTORY_VARIABLE>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <UNITS>null</UNITS>
+       </RPARAM>
+      </RPARAMS_LIST>
+      <IVARS_LIST>
+       <IVAR>
+        <SUB_ID>28</SUB_ID>
+        <TITLE>constant value - Linked variable</TITLE>
+        <VARNAME>k0GEN</VARNAME>
+        <VISIBILITY>False</VISIBILITY>
+        <TYPE>10</TYPE>
+        <SAVE_VALUE>1</SAVE_VALUE>
+        <DIMENSION>1</DIMENSION>
+        <UNITS>null</UNITS>
+        <MIN_VALUE>-1.00000000000000e+30</MIN_VALUE>
+        <MAX_VALUE>1.00000000000000e+30</MAX_VALUE>
+        <DEF_VALUE>0</DEF_VALUE>
+        <VALUE>0.00000000000000e+00</VALUE>
+       </IVAR>
+      </IVARS_LIST>
+      <EVARS_LIST>
+       <PORT>
+        <PORT_TAG>undefined</PORT_TAG>
+        <PORT_ORIENTATION>Normal</PORT_ORIENTATION>
+        <USE_REQUIRED>0</USE_REQUIRED>
+        <EVAR>
+         <SUB_ID>24</SUB_ID>
+         <TITLE>output</TITLE>
+         <VARNAME>out</VARNAME>
+         <VISIBILITY>True</VISIBILITY>
+         <TYPE>0</TYPE>
+         <SAVE_VALUE>1</SAVE_VALUE>
+         <DIMENSION>1</DIMENSION>
+         <IO>2</IO>
+         <UNITS>null</UNITS>
+        </EVAR>
+       </PORT>
+      </EVARS_LIST>
+      <CIR_PORTS_OVER_FRAMEWORK>0</CIR_PORTS_OVER_FRAMEWORK>
+      <SUBIDS_RESET>0</SUBIDS_RESET>
+     </SUBMODEL>
+    </COMP>
+   </COMPS_LIST>
+   <ANIMATION_PROPERTIES>
+    <SPEED>1.00000000000000e+00</SPEED>
+    <LOOP>0</LOOP>
+   </ANIMATION_PROPERTIES>
+  </CIRCUIT>
+ </SUPERCOMPONENT>
+</SUB>
